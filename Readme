@@ -1,0 +1,7 @@
+The Snapshot Algorithm implementation.
+
+Message communication:-
+	Branch to branch communication done by sending it's length of name string and then name String bytes and then the BranchMessage(using writeDelimitedTo()).
+	Controller does not have to send it's name before sending branch message.
+
+Note:- All the branch messages should be sent via writeDelimitedTo() method.
